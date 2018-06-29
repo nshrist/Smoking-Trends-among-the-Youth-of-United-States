@@ -30,7 +30,6 @@ clean2$High_Confidence_Limit[is.na(clean2$High_Confidence_Limit)]= mean(clean2$H
 clean2$Sample_Size[is.na(clean2$Sample_Size)]= mean(clean2$Sample_Size, na.rm = T)
 
 View(clean2)
-
 clean3<- data.frame(clean2)
 View(clean3)
 •	Barplot for Top 5 States in terms of Cessation Rate
